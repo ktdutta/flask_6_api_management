@@ -1,38 +1,38 @@
-bin
-obj
-csx
-.vs
-edge
-Publish
+myapp/azure_deployment/bin
+myapp/azure_deployment/obj
+myapp/azure_deployment/csx
+myapp/azure_deployment/.vs
+myapp/azure_deployment/edge
+myapp/azure_deployment/Publish
 
-*.user
-*.suo
-*.cscfg
-*.Cache
-project.lock.json
+myapp/azure_deployment/*.user
+myapp/azure_deployment/*.suo
+myapp/azure_deployment/*.cscfg
+myapp/azure_deployment/*.Cache
+myapp/azure_deployment/project.lock.json
 
-/packages
-/TestResults
+myapp/azure_deployment//packages
+myapp/azure_deployment//TestResults
 
-/tools/NuGet.exe
-/App_Data
-/secrets
-/data
-.secrets
-appsettings.json
-local.settings.json
+myapp/azure_deployment/tools/NuGet.exe
+myapp/azure_deployment/App_Data
+myapp/azure_deployment/secrets
+myapp/azure_deployment/data
+myapp/azure_deployment/.secrets
+myapp/azure_deployment/appsettings.json
+# myapp/azure_deployment/local.settings.json
 
-node_modules
-dist
+myapp/azure_deployment/node_modules
+myapp/azure_deployment/dist
 
 # Local python packages
 .python_packages/
 
 # Python Environments
-.env
-.venv
+myapp/azure_deployment/.env
+myapp/azure_deployment/.venv
 env/
-venv/
+myapp/azure_deployment/venv/
 ENV/
 env.bak/
 venv.bak/
@@ -46,3 +46,6 @@ __pycache__/
 __blobstorage__
 __queuestorage__
 __azurite_db*__.json
+
+myapp/azure_deployment/.vscode
+myapp/azure_deployment/__pycache__
